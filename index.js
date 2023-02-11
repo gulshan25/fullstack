@@ -146,4 +146,6 @@ console.log(firstMountain);
 var name = 'Everest';
 var height = 8848;
 
+var adventureClimbing = {}
+
 //restructuring//
