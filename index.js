@@ -113,6 +113,37 @@ nepal.printWithDash();
 
 //destructuring object//
 
+let thingsToDo = {
+    morning: "exercise",
+    afternoon: "work",
+    evening: "code",
+    night: ["sleep", "Dream"],
+}
+let { morning, afternoon } = thingsToDo;
+morning = "run";
+console.log(morning, '-', afternoon);
 
+let uniStudent = ({ name, university }) => {
+    //let { name, university } = student;
+    console.log(`${name} from ${university}`);
 
+};
+
+uniStudent({
+    name: "ryan",
+    university: "America"
+});
 //destructuring object//
+
+//destructuring array//
+
+let [, , firstMountain] = ['Everest', 'Fish Tail', 'Annapurna']
+console.log(firstMountain);
+//destructuring array//
+
+//restructuring//
+
+var name = 'Everest';
+var height = 8848;
+
+//restructuring//
