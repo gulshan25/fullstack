@@ -94,3 +94,25 @@
 
 
 //arrow functions//
+
+//arrow functions & this kayword//
+
+let nepal = {
+    //add property
+    mountains: ['Everest', ' Fish Tail', ' Annapurna'],
+    //add method
+    printWithDash: function() {
+
+        setTimeout(() => console.log(this.mountains.join("-")), 3000)
+    }
+};
+
+nepal.printWithDash();
+
+//arrow functions & this kayword//
+
+//destructuring object//
+
+
+
+//destructuring object//
