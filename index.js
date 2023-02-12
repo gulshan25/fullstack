@@ -1,3 +1,5 @@
+//Restructuring
+
 // var name = "Everest";
 // var height = "8848";
 // var output = function() {
@@ -29,3 +31,35 @@ var adventureClimbing = {
 adventureClimbing.output();
 
 //ES6//
+
+//Restructuring
+
+//Spread and rest operators
+
+// var mountains = ['everest', 'FIsh tail', 'annapurna'];
+// var mountainsFromJapan = ['Fuji'];
+
+// var allMountains = [...mountains, ...mountainsFromJapan];
+// console.log(allMountains);
+
+// var day = {
+//     breakfast: 'toast with milk',
+//     lunch: 'rice with cicken curry'
+
+// }
+
+// var night = {
+//     dinner: 'noodle soup'
+// }
+
+// var picnic = {...day, ...night };
+
+// console.log(picnic);
+
+// rest 
+
+var rivers = ['sunkoshi', 'tamakoshi', 'saptakoshi'];
+var [...first, ...rest] = rivers
+
+console.log(rest);
+//Spread and rest operators
